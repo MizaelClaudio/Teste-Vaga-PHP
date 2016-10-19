@@ -1,0 +1,41 @@
+#barraMenu{
+    min-height: 111px;
+}
+
+#cima{
+    min-height: 111px;
+    background-color: grey;
+}
+
+#meio{
+    min-height: 600px;
+    padding-left:0.7cm;
+}
+
+#baixo{
+    min-height: 200px;
+    background-color: grey;
+}
+
+h1{
+    color: black;
+}
+	
+* {
+    padding : 0;
+    margin : 0;
+}
+
+body {
+    background : white;
+    color : black;
+}
+
+.navbar-toggle {
+  float: left;
+  margin-left: 10px;
+}
+
+.icon-bar {
+  color:grey;
+}
