@@ -66,15 +66,15 @@
         <div class="row">
             <div style="min-height:20px"></div>
             <div role="main">
-                <form class="form-horizontal" method="GET" role="form" id="frmBuscar" name="frmBuscar">
+                <form style="padding-left:0.7cm;" class="form-horizontal" method="GET" role="form" id="frmBuscar" name="frmBuscar">
                     <div class="form-group">
-                        <label  class="col-sm-12 control-label" for="nome">Digite o Nome de Usuário</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="nome" name="nome">
-                        </div>
+                        <label class="control-label" for="nome">Digite o Nome de Usuário</label>
+                        <!--<div class="col-sm-10">-->
+                            <input style="max-width:250px;" type="text"  class="form-control" id="nome" name="nome">
+                        <!--</div>-->
                     </div>
 		
-                    <button class="btn btn-default" type="submit" id="buscar">Buscar</button>		
+                    <button class="btn btn-success" type="submit" id="buscar">Buscar</button>		
                 </form>
 
                 <table class="table table-inverse">
